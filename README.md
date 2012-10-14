@@ -43,7 +43,7 @@ From your Octopress blog's directory, assuming your theme directory is called __
 
 ``` sh
 cd .themes/light
-git pull origin/master
+git pull origin master
 ```
 
 Next, you should apply the theme to your blog and generate the stylesheets. Follow the [install instructions](#applying-the-light-theme-to-your-blog).
