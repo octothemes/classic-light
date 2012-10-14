@@ -14,7 +14,6 @@ These instructions will create a git submodule under the __.themes/light__ direc
 
 ``` sh
 git submodule add git://github.com:octopress-themes/classic-light.git .themes/light
-git submodule update --init
 ```
 
 You should then commit the changes.
@@ -151,4 +150,4 @@ More themes are available on [Octopress themes](http://octopressthemes.com). Fee
 
 ## License
 
-Copyright 2012. Wong Liang Zan. MIT License
+Copyright &copy; 2012. Wong Liang Zan. MIT License
