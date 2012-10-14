@@ -24,7 +24,7 @@ git add .themes
 git commit -m "added classic light theme"
 ```
 
-Next, you should apply the theme to your blog and generate the stylesheets. Follow the [install instructions](#deploy).
+Next, you should apply the theme to your blog and generate the stylesheets. Follow the [install instructions](#applying-the-light-theme-to-your-blog).
 
 ### Install from downloaded zip archive
 
@@ -34,7 +34,7 @@ If you are more comfortable with just the theme files, you can download our zip 
 2. Go to your Octopress blog's directory. There should be a hidden directory called __.themes__.
 3. Your theme should be a single directory called __light__ containing the theme files. Copy the __light__ directory to the __.themes__ directory on your Octopress blog's directory.
 
-Next, you should apply the theme to your blog and generate the stylesheets. Follow the [install instructions](#deploy).
+Next, you should apply the theme to your blog and generate the stylesheets. Follow the [install instructions](#applying-the-light-theme-to-your-blog).
 
 ## Updating the theme
 
@@ -47,7 +47,7 @@ cd .themes/light
 git pull origin/master
 ```
 
-Next, you should apply the theme to your blog and generate the stylesheets. Follow the [install instructions](#deploy).
+Next, you should apply the theme to your blog and generate the stylesheets. Follow the [install instructions](#applying-the-light-theme-to-your-blog).
 
 ### With downloaded packages
 
@@ -58,7 +58,7 @@ It is largely similar to the install process. We want to overwrite the theme wit
 3. Go to your Octopress blog's directory. There should be a hidden directory called __.themes__.
 4. Your downloaded files should be a single directory called __light__ containing the theme files. Copy the __light__ directory to the __.themes__ directory on your Octopress blog's directory.
 
-Next, you should apply the theme to your blog and generate the stylesheets. Follow the [install instructions](#deploy).
+Next, you should apply the theme to your blog and generate the stylesheets. Follow the [install instructions](#applying-the-light-theme-to-your-blog).
 
 ## Removing the theme
 
@@ -84,16 +84,16 @@ Remove the theme files with Git.
 git rm  --cached .themes/light
 ```
 
-Your files should be removed. If you want to go back to using the default theme, follow the [Octopress default theme install instructions](#classic-deploy).
+Your files should be removed. If you want to go back to using the default theme, follow the [Octopress default theme install instructions](#applying-the-classic-theme-to-your-blog).
 
 ### If you installed as a download package
 
 From your Octopress blog's directory,
 
 1. Remove the __light__ directory from __.themes/light__.
-2. Follow the [Octopress default theme install instructions](#classic-deploy).
+2. Follow the [Octopress default theme install instructions](#applying-the-classic-theme-to-your-blog).
 
-## <a id="deploy"></a> Applying the light theme to your blog
+## Applying the light theme to your blog
 
 Follow this set of instructions whenever you made a new install or update to your themes.
 
@@ -114,7 +114,7 @@ If everything looks ok, deploy it.
 rake deploy
 ```
 
-## <a id="classic-deploy"></a> Applying the classic theme to your blog
+## Applying the classic theme to your blog
 
 Follow this set of instructions when you want to install the default Octopress theme. It is largely similar to the instructions for installing a new theme. Only the name of the theme has changed.
 
