@@ -1,6 +1,6 @@
 # Octopress Themes - Classic Light Theme
 
-![Octopress Classic Light Theme thumbnail](https://s3.amazonaws.com/static.liangzan.net/light-thumbnail.png)
+![Octopress Classic Light Theme thumbnail](https://s3.amazonaws.com/static.octopressthemes.com/thumbnails/light-thumbnail.png)
 
 Classic light theme is a theme hand made for Octopress blogging framework. It is compatible with Octopress 2. Updates will be provided from this repository.
 
